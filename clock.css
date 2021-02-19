@@ -29,21 +29,21 @@
 	cursor: pointer;
 }
 
-/*.header:hover{
+.header:hover{
 	color: #000;
 }
 
 .header:hover .eyeclock{
 	opacity: 10%;
-}*/
+}
 
-.eyeclock:hover{
+/*.eyeclock:hover{
 	opacity: 10%;
 }
 
 .eyeclock:hover .header{
 	color: #000;
-}
+}*/
 
 .eyeclock{
 	display: block;
