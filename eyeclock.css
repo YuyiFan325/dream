@@ -1,0 +1,78 @@
+.eyeclock{
+  position: relative;
+}
+
+.frame1{
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+  background-image: radial-gradient(white, grey, black);
+   box-shadow: inset 1px 2px 7px black, inset 8px 3px 8px white, 3px 3px 8px black;
+}
+
+.frame2{
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  top: 50px;
+  left: 50px;
+  background-image: radial-gradient(white, grey);
+  box-shadow: -1px -2px 6px black, inset 1.5px 1px 9px white, inset 3px 3px 5px black;
+}
+
+.eye1{
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+  top: 175px;
+  left: 173px;
+  border-radius: 50%;
+  background-image: radial-gradient(black,#313131 20%, grey, lightgrey,white 80%);
+  box-shadow: inset 1px 1px 20px black, inset -1px -1px 20px black, inset 0px 0px 3px white, 0px 0px .5px white, 0px 0px 5px grey, 0px 0px 15px black ;
+} 
+
+.eye2{
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  top: 250px;
+  left: 248px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: inset 0px 0px .5px darkgrey,0px 0px 3px darkgrey;
+  filter: blur(2px);
+}
+
+.eye3{
+  position: absolute;
+  z-index: 2;
+  border: 1px solid #af0404;
+  width: 200px;
+  height: 200px;
+  top: 175px;
+  left: 170px;
+  border-radius: 50%;
+  box-shadow: inset 0px -5px 10px white,inset 5px 5px 50px #d72323,0px 0px 10px #e26241, 0px 0px 20px black;
+  filter: blur(10px);
+}
+
+.eye4{
+  position: absolute;
+  z-index: 3;
+  background-color: #fcd1d1;
+  width: 20px;
+  height: 15px;
+  top: 250px;
+  left: 240px;
+  border-radius: 50% 10% / 50% 50%;
+  box-shadow: 0px 0px 3px white;
+  filter: blur(3px);
+}
