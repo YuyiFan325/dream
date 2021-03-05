@@ -11,24 +11,26 @@
 	position: fixed;
 	color: #fff;
 	font-family: erotique trial;
-	font-weight: bolder;
-	top: 1280px;
+	font-weight: normal;
+	top: 1000px;
 	transform-origin: center bottom;
+	z-index: 1;
 }
 
-#Ein{
+/*#Ein{
 	z-index: 1;
 	font-size: 86px;
 	top: -20px;
 	left: 198px;
 	height: 0px;
-}
-
+}*/
 
 #Drm{
 	z-index: 0;
-	font-size: 195px;
-	height: 169px;
+	font-size: 99px;
+	height: 188px;
+	padding-left: 25px;
+	top: 117px;
 }
 
 #fullpage{
@@ -53,7 +55,7 @@
 #fullpage section:nth-child(1){
 	grid-column: span 3;
 	text-align: left;
-	padding-top: 700px;
+	padding-top: 200px;
 	padding-left: 50px;
 	line-height: 1.1;
 }
@@ -73,11 +75,7 @@
 	transition: .3s ease;
 	top: 705px;
 	left: -300px;
-}
-
-.line:hover{
 	transform: rotate(90deg);
-	cursor: pointer;
 }
 
 .date{
@@ -155,6 +153,10 @@
 	line-height: 1.1;
 }
 
+#fullpage section:nth-child(10).active{
+	top: -700px;
+}
+
 #fullpage section:nth-child(11){
 	grid-column-start: 4;
 	top: -600px;
@@ -163,6 +165,10 @@
 	padding-right: 10px;
 	height: 0px;
 	line-height: 1.1;
+}
+
+#fullpage section:nth-child(11).active{
+	top: -900px;
 }
 
 #fullpage section:nth-child(12){
@@ -278,6 +284,16 @@ a:hover{
 span{
 	font-family: poor Richard
 }
+
+span:hover{
+	color: red;
+	cursor: pointer;
+}
+
+span.active{
+	transform: rotateY(90deg);
+}
+
 
 /*
 .dark{

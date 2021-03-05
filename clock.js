@@ -2,18 +2,34 @@ $(function() {
 
   $(window).scroll(function() {
 
-    var massY = Math.min(20, 1+0.0005*$(this).scrollTop());
+    var massY = Math.min(20, 0.5+0.0005*$(this).scrollTop());
 
-    $('.BGI').css('transform', 'scaleY(' + massY + ')');
+    $('.BGI').css('transform', 'scaleY(' + massY*2 + ')');
   });
 });
 
 
-
-
-/*$(document).ready(function(){
-	$('#fullpage').fullpage();
+$(document).ready(function(){
+	$("span").click(function(){
+		$("span"). toggleClass("active");
+	});
 });
+
+
+
+/*
+$(document).ready(function(){
+	$("#fullpage section:nth-child(10)").click(function(){
+		$("#fullpage section:nth-child(10)").toggleClass("active");
+	});
+});
+
+$(document).ready(function(){
+	$("#fullpage section:nth-child(11)").click(function(){
+		$("#fullpage section:nth-child(11)").toggleClass("active");
+	});
+});
+
 
 
 
