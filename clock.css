@@ -295,6 +295,39 @@ span.active{
 }
 
 
+
+.door:hover{
+	color: red;
+}
+
+.door2{
+	display: none;
+	left: 1500px;
+}
+
+.door2.active{
+	display: inline;
+}
+
+.out, .in{
+	font-family: Erotique Trial;
+	font-weight: normal;
+	font-size: 53px;
+	color: #fff;
+}
+
+.out{
+	top: -230px;
+	left: 138px;
+	width: 0px;
+}
+
+.in{
+	top: -280px;
+	left: 762px;
+	width: 0px;
+}
+
 /*
 .dark{
 	background-color: #000;

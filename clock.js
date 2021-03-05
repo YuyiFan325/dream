@@ -15,6 +15,13 @@ $(document).ready(function(){
 	});
 });
 
+$(document).ready(function(){
+	$(".door").click(function(){
+		$(".door2"). show("active");
+	});
+});
+
+
 
 
 /*
